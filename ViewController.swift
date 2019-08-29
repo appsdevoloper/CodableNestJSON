@@ -59,7 +59,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // MARK: JSON Data Load
     
     func loadJSON(){
-        let urlPath = "https://api.myjson.com/bins/1dxqh3"
+        let urlPath = ""
         let url = NSURL(string: urlPath)
         let session = URLSession.shared
         let task = session.dataTask(with: url! as URL) { data, response, error in
